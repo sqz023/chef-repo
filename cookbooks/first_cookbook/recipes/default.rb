@@ -7,3 +7,7 @@
 package 'Install pachage httpd' do
   package_name 'httpd'
 end
+
+user 'saqib' do
+  home '/home/saqib'
+end
